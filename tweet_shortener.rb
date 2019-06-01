@@ -22,6 +22,7 @@ dictionary = {
 :and => "&"
 }
 
-def word_substituter
-
+def word_substituter(tweet)
+  tweet_array = tweet.split
+  puts tweet_array
 end
