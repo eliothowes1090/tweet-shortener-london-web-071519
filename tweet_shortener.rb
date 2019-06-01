@@ -1,3 +1,5 @@
+require 'pry'
+
 # Write your code here.
 # dictionary = {
 # :hello => "hi",
@@ -25,4 +27,5 @@ dictionary = {
 def word_substituter(tweet)
   tweet_array = tweet.split
   puts tweet_array
+binding.pry
 end
