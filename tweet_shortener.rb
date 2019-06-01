@@ -28,6 +28,8 @@ end
 
 def word_substituter(tweet)
   tweet_array = tweet.split
-  keys = dictionary.keys
-binding.pry
+  # keys = dictionary.keys
+
 end
+
+binding.pry
