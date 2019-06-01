@@ -29,7 +29,7 @@ end
 def word_substituter(tweet)
 words = tweet.split
 
-  tweet.split.collect do |word|
+  word.collect do |word|
     dictionary.collect do |key, value|
       if word == key
         word.replace(value)
