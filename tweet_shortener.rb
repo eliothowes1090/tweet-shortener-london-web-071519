@@ -30,5 +30,6 @@ def word_substituter(tweet)
       if word == dictionary.each do |full_word, shortened_word|
         full_word.to_s
       end
+      word.replace(shortened_word)
     end
 end
