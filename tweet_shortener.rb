@@ -30,6 +30,7 @@ def word_substituter(tweet)
   tweet.split.collect do |word|
     dictionary.collect do |key, value|
       if word == key
+        word.replace(value)
     else word
     end
   end.join(" ")
