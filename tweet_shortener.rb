@@ -28,7 +28,6 @@ end
 
 def word_substituter(tweet)
 words = tweet.split
-dict = dictionary
 
   words.collect do |word|
     dictionary.collect do |key, value|
