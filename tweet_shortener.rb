@@ -46,7 +46,10 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweets)
-  puts tweets.length
+  tweets.each do |tweet|
+    if tweet.length > 140
+      puts word_substituter(tweet)
+    else returnn tweet
+  end
 end
 
-binding.pry
