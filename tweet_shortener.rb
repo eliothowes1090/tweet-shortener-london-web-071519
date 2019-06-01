@@ -39,13 +39,7 @@ words = tweet.split(" ")
     words.join(" ")
 end
 
-# array = string.split(" ")
-#   array.each_with_index do |words,index|
-#     dictionary.keys.each do |x|
-#       if x == words
-#       array[index] = dictionary[x]
-#       end
-#       end
-#       end
-# array.join(" ")
-# end
+def bulk_tweet_shortener(tweets)
+  tweets.each do |tweet|
+    puts word_substituter(tweet)
+end
