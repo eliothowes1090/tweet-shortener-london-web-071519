@@ -21,3 +21,7 @@ dictionary = {
 :at => "@",
 :and => "&"
 }
+
+def word_substituter
+  
+end
