@@ -31,5 +31,3 @@ def word_substituter(tweet)
   # keys = dictionary.keys
 binding.pry
 end
-
-
