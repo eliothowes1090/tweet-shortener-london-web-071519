@@ -40,10 +40,10 @@ dict = dictionary
 
   words.collect do |word|
     dictionary.collect do |key, value|
-      if word == key 
+      if word == key
         word.replace(value)
-      end 
+      end
     end
-  end 
+  end
   words.join(" ")
-end 
+end
