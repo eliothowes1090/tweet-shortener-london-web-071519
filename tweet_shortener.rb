@@ -34,7 +34,7 @@ def word_substituter(tweet)
       end
     end
   end
-    return tweet.join(" ")
+    return tweet
 end
 
 # dict = dictionary
