@@ -32,6 +32,5 @@ def word_substituter(tweet)
       word = dictionary[word.downcase]
     else word
     end
-.join(" ")
-  end
+  end.joint(" ")
 end
