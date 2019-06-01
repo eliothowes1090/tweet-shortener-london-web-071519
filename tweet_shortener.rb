@@ -24,7 +24,7 @@ dictionary = {
 :and => "&"
 }
 
-def word_substituter(tweet, dictionary)
+def word_substituter(tweet)
   tweet_array = tweet.split
     tweet_array.each do |word|
       if word == dictionary.each do |full_word, shortened_word|
