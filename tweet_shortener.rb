@@ -31,7 +31,7 @@ words = tweet.split(" ")
 
   words.each_with_index do |word, index|
     dictionary.keys.each do |key, value|
-      if word == key.to_s
+      if word.downcase == key.to_s
         words[index] = dictionary[key]
       end
     end
