@@ -32,7 +32,7 @@ words = tweet.split(" ")
   words.each_with_index do |word, index|
     dictionary.keys.each do |key, value|
       if word == key.to_s
-        words[index] = dictionary[key.to_s]
+        words[index] = dictionary[value]
       end
     end
   end
