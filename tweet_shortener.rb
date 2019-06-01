@@ -21,6 +21,3 @@ dictionary = {
 :at => "@",
 :and => "&"
 }
-
-
-
