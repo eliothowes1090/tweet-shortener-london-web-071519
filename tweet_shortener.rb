@@ -29,7 +29,7 @@ end
 def word_substituter(tweet)
   tweet_array = tweet.split
   tweet_array.each do |word|
-    if word == dictionary.keys.include? {|value| word.replace(value)}
+    if dictionary.keys.include?(word.downcase)
     end
   end
 end
