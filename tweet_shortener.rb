@@ -28,7 +28,8 @@ def word_substituter(tweet)
   tweet_array = tweet.split
     tweet_array.each do |word|
       if word == dictionary.each do |full_word, shortened_word|
-        full_word.to_s
+                  full_word.to_s
+                 end
       end
       word.replace(shortened_word)
     end
