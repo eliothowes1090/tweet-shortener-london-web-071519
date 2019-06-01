@@ -29,25 +29,23 @@ end
 def word_substituter(tweet)
 words = tweet.split(" ")
 
-  words.collect do |word|
-    dictionary.collect do |key, value|
+  words.each_with_index do |word, index|
+    dictionary.keys.each do |key|
       if word == key
-        word.replace(value)
+        words[index] = dictionary[key]
       end
     end
   end
     words.join(" ")
 end
 
-# dict = dictionary
-#   words = tweet.split(" ")
-#
-#   words.collect do |word|
-#     dictionary.collect do |key, value|
-#       if word == key
-#         word.replace(value)
-#       end
-#     end
-#   end
-#   words.join(" ")
-# end
+array = string.split(" ")
+  array.each_with_index do |words,index|
+    dictionary.keys.each do |x|
+      if x == words
+      array[index] = dictionary[x]
+      end
+      end
+      end
+array.join(" ")
+end
