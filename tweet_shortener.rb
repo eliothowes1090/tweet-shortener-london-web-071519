@@ -27,5 +27,5 @@ dictionary = {
 def word_substituter(tweet)
   tweet_array = tweet.split
   keys = dictionary.keys
-  binding.pry
+binding.pry
 end
