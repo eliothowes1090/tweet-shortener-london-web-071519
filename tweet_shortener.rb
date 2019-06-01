@@ -33,8 +33,8 @@ def word_substituter(tweet)
         word.replace(value)
       end
     end
-    tweet.join(" ")
   end
+    tweet.join(" ")
 end
 
 dict = dictionary
