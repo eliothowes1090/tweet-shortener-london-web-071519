@@ -36,7 +36,7 @@ words = tweet.split
       end
     end
   end
-    return tweet
+    return word
 end
 
 # dict = dictionary
