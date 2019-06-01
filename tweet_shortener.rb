@@ -30,4 +30,5 @@ def word_substituter(tweet)
   tweet_array = tweet.split
   tweet_array.each do |word|
     if word == dictionary.values.each {|value| word.replace(value)}
+    end
 end
