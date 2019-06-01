@@ -31,9 +31,9 @@ def word_substituter(tweet)
     dictionary.collect do |key, value|
       if word == key
         word.replace(value)
-    else word
+      end
     end
-  end.join(" ")
+  end
 end
 
 dict = dictionary
