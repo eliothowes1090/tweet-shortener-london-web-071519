@@ -26,6 +26,9 @@ dictionary = {
 
 def word_substituter(tweet)
   tweet_array = tweet.split
-  puts tweet_array
-binding.pry
+    tweet_array.each do |word|
+      if word == dictionary.each do |full_word, shortened_word|
+        full_word.to_s
+      end
+    end
 end
